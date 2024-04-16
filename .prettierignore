@@ -1,0 +1,40 @@
+# Next.js build output
+.next/
+out/
+.build/
+
+# Dependency directory
+node_modules/
+package.json
+package-lock.json
+
+# Environment variables
+.env*
+!.env.example
+
+# Build logs
+*.log
+
+# Other files and folders to ignore
+.cache/
+coverage/
+dist/
+public/
+
+# Specific files that may not require formatting
+*.min.js
+*.bundle.js
+
+# Ignore markdown files (if you choose to)
+*.md
+
+# Ignore images and other binary data
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+*.bmp
+*.env
